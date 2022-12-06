@@ -6,7 +6,7 @@ public class Main {
         int halfLength; //variable definition
             if (length % 2 == 0) halfLength = length / 2; // checking the parity condition and determining position of middle chars
             else halfLength = (length + 1) / 2; //else statement and determining position of middle char for odd numbers of letters input
-
+//aaaaa
             if(word.charAt(i) != word.charAt((length-1)-i)) return false; //comparing opposing chars to determinate if it is a palindrome and if is not return false
             else if((halfLength-1) == i)return true; //if every char is the same up to middle element return true
 
