@@ -1,7 +1,7 @@
 public class Main {
     public Main() {
     }
-    public static boolean isItPalidrome(String word,int i) {
+    public static boolean isItPalidrome(String word,int i) { // i
         int length = word.length(); //counting the number of letters in a word
         int halfLength; //variable definition
             if (length % 2 == 0) halfLength = length / 2; // checking the parity condition and determining position of middle chars
